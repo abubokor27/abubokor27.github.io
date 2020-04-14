@@ -1,0 +1,295 @@
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .top-menu {
+        margin: 0 auto !important;
+    }
+
+    .navbar-nav {
+        margin: 43px 0;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .banner-icon {
+        top: 60px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .banner-icon i {
+        display: inline-flex;
+        width: 35px !important;
+    }
+
+    .produtcs-head h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .cultural-program img {
+        height: 260px;
+    }
+
+    .are-area h2 {
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+
+    .www {
+        margin-top: 25px;
+    }
+
+    .www img {
+        width: 60%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    .are-area h3 {
+        font-size: 20px;
+        margin: 0 auto !important;
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .catagory-part h3 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    footer h4 {
+        text-align: center;
+    }
+
+    footer h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    footer ul li {
+        text-align: center;
+    }
+
+    .f-btm p {
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width : 767.98px) {
+    .top-menu {
+        margin: 0 auto !important;
+    }
+
+    .navbar-nav {
+        margin: 43px 0;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .banner-icon {
+        top: 60px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .banner-icon i {
+        display: inline-flex;
+        width: 35px !important;
+    }
+
+    .produts_area_bg img {
+        height: 260px;
+        width: 50%;
+    }
+
+    .produtcs-head h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .cultural-program {
+        text-align: center;
+    }
+
+    .cultural-program img {
+        width: 80%;
+    }
+
+    .are-area h2 {
+        margin: 0 auto;
+        padding-bottom: 25px;
+    }
+
+    .www {
+        margin-top: 25px;
+    }
+
+    .www img {
+        width: 60%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    .are-area h3 {
+        font-size: 20px;
+        margin: 0 auto !important;
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .catagory-part h3 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    footer h4 {
+        text-align: center;
+    }
+
+    footer h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    footer ul li {
+        text-align: center;
+    }
+
+    .f-btm p {
+        text-align: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width : 991.98px) {
+    .top-menu {
+        margin: 0 auto !important;
+    }
+
+    .navbar-nav {
+        margin: 43px 0;
+    }
+
+    .nav-link {
+        text-align: center;
+    }
+
+    .navbar-toggler:focus {
+        outline: none;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .banner-icon {
+        top: 60px;
+        right: 0;
+        left: 0;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .banner-icon i {
+        display: inline-flex;
+        width: 35px !important;
+    }
+
+    .produts_area_bg img {
+        height: 290px;
+        width: 100%;
+    }
+
+    .produtcs-head h3 {
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .cultural-program img {
+        height: 126px;
+    }
+
+    .are-area h2 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .www {
+        margin-top: 25px;
+    }
+
+    .www img {
+        width: 60%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    .are-area h3 {
+        font-size: 20px;
+        margin: 0 auto !important;
+        width: 100%;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .catagory-part h3 {
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    footer h4 {
+        text-align: center;
+    }
+
+    footer h4 {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    footer ul li {
+        text-align: center;
+    }
+
+    .f-btm p {
+        text-align: center;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-width: 992px) and (max-width : 1199.98px) {
+    .carousel-item img {
+        height: 400px;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+
+@media (min-width: 1400px) {}

@@ -1,0 +1,969 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /*-- welcome --*/
+    .welcome {
+        height: 30vh;
+    }
+
+    header {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logo {
+        flex-basis: 45%;
+    }
+
+    nav {
+        flex-basis: 55%;
+        display: none;
+    }
+
+    .wlcm-banner-area-txt h1 {
+        font-size: 25px;
+    }
+
+    .wlcm-banner-area-txt p {
+        font-size: 10px;
+    }
+
+    .wlcm-banner-btn a {
+        padding: 4px 10px;
+    }
+
+
+
+    /*-- service --*/
+    .srvs-area-prt {
+        flex-basis: 100%;
+        margin: 20px 0;
+    }
+
+    /*-- subscribe --*/
+    .subscribe-email input[type="email"] {
+        padding: 9px 18px;
+    }
+
+    .subscribe-btn input[type="submit"] {
+        padding: 8px 5px;
+    }
+
+    /*-- our-works --*/
+
+
+    /*-- slider --*/
+    .slider-face img {
+        width: 20%;
+    }
+
+    .slider-area p {
+        font-size: 14px;
+        width: 73%;
+    }
+
+    /*-- our-works --*/
+    .our-works-area-txt p {
+        width: 75%;
+    }
+
+    .our-works-area-part {
+        height: 308px;
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+
+    .our-works-area-part-position h2 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .our-works-area-part-position p {
+        padding: 15px 0px 8px;
+        font-size: 18px;
+    }
+
+    .our-works-area-part-btn a {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /*-- our-team --*/
+    .our-team-txt h2 {
+        font-size: 25px;
+    }
+
+    .our-team-txt p {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .our-team-img-prt {
+        max-width: 100%;
+        flex-basis: 100%;
+        margin: 15px 0px;
+    }
+
+    .our-team-img-prt-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .our-team-img-prt h2 {
+        font-size: 33px;
+        padding: 20px 10px 0px;
+        text-align: center;
+    }
+
+    .our-team-img-prt-icon {
+        padding: 20px 0 0px;
+        display: inline-flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .our-team-img-prt-icon i {
+        font-size: 40px;
+        margin: 0 14px;
+    }
+
+    .our-team-img-prt p {
+        width: 90%;
+        margin: 20px auto;
+        text-align: justify;
+        padding: 0;
+        font-size: 25px;
+    }
+
+    /*-- contact --*/
+
+    .contact {
+        height: 65vh;
+    }
+
+    .contact-txt h2 {
+        font-size: 25px;
+    }
+
+    .contact > .mid {
+        position: absolute;
+        top: 32%;
+        left: 33%;
+        transform: translate(-30%, -28%);
+    }
+
+    .contact-form {
+        margin-top: 30px;
+    }
+
+    .contact-txt p {
+        font-size: 17px;
+    }
+
+    .contact-form-email {
+        flex-basis: 100%;
+    }
+
+    .contact-form-email input[type="email"] {
+        width: 90%;
+        display: inline-block;
+        padding: 7px 0 7px 12px;
+    }
+
+    .contact-form-subject {
+        flex-basis: 100%;
+        margin: 10px 0;
+    }
+
+    .contact-form-subject input[type="text"] {
+        width: 90%;
+        display: inline-block;
+        padding: 7px 0 7px 12px;
+    }
+
+    .contact-form-row-two {
+        margin-top: 0px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contact-form-row-two textarea {
+        width: 88%;
+    }
+
+    .contact-form-row-three {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .contact-form-row-three-btn {
+        margin-left: 7px;
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .contact-form-row-three-btn a {
+        width: 80%;
+        font-size: 16px;
+        font-weight: 800;
+        padding: 7px 31px;
+        text-align: center;
+        margin: 10px 0px;
+    }
+
+    .contact-form-row-three-icon {
+        margin-right: 10px;
+        display: inline-flex;
+        flex-basis: 100%;
+        justify-content: center;
+    }
+
+    .contact-form-row-three-icon .fa-facebook {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-twitter {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-google {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-linkedin {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ontact-form-row-three-icon .fa-github {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 601px) and (max-device-width : 767px) {
+
+    /*-- welcome --*/
+    .welcome {
+        height: 45vh;
+        padding-bottom: 0;
+    }
+
+    .logo {
+        flex-basis: 35%;
+    }
+
+    nav {
+        flex-basis: 65%;
+    }
+
+    .wlcm-banner-area-txt h1 {
+        font-size: 30px;
+    }
+
+    .wlcm-banner-area-txt p {
+        font-size: 13px;
+    }
+
+    .wlcm-banner-btn a {
+        padding: 6px 25px;
+    }
+
+    /*-- service --*/
+    .services {
+        padding: 30px 0 20px;
+    }
+
+    .srvs-area-prt {
+        flex-basis: 100%;
+        margin-top: 50px;
+    }
+
+    .srvs-area-prt p {
+        width: 90%;
+    }
+
+    /*-- subscribe --*/
+    .subscribe-email input[type="email"] {
+        padding: 8px 70px;
+    }
+
+    .subscribe-btn input[type="submit"] {
+        padding: 8px 8px;
+    }
+
+    /*-- our-works --*/
+    .our-works-area-txt p {
+        width: 55%;
+    }
+
+    .our-works-area-part {
+        height: 250px;
+        flex-basis: 48%;
+        max-width: 48%;
+        margin-top: 18px;
+    }
+
+    .our-works-area-part-position h2 {
+        font-size: 13px;
+    }
+
+    .our-works-area-part-position p {
+        padding: 15px 0px 8px;
+    }
+
+    .our-works-area-part-btn a {
+        font-size: 10px;
+        font-weight: bold;
+    }
+
+    /*-- slider --*/
+    .slider-area p {
+        width: 100%;
+        font-size: 24px;
+    }
+
+    /*-- our-team --*/
+    .our-team {
+        padding: 40px 0;
+    }
+
+    .our-team-img {
+        margin-top: 17px;
+    }
+
+    .our-team-img-prt {
+        flex-basis: 50%;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+    }
+
+    .our-team-img-prt-img {
+        width: 90%;
+
+    }
+
+    .our-team-img-prt h2 {
+        font-size: 18px;
+        padding: 20px 10px 0px;
+        text-align: justify;
+    }
+
+    .our-team-img-prt-icon {
+        padding: 20px 0 0px;
+    }
+
+    .our-team-img-prt p {
+        width: 82%;
+        margin-left: 12px;
+        text-align: justify;
+        padding: 0;
+    }
+
+    /*-- contact --*/
+
+    .contact {
+        height: 80vh;
+    }
+
+    .contact > .mid {
+        position: absolute;
+        top: 32%;
+        left: 33%;
+        transform: translate(-30%, -28%);
+    }
+
+    .contact-form-email input[type="email"] {
+        width: 55%;
+        margin: 0px 14px;
+        padding: 7px 0 7px 12px;
+    }
+
+    .contact-form-subject input[type="text"] {
+        width: 55%;
+        margin: 0px 14px;
+        padding: 7px 0 6px 12px;
+    }
+
+    .contact-form-row-three-btn a {
+        font-size: 10px;
+        padding: 7px 30px;
+        text-align: center;
+        margin: 25px -5px;
+    }
+
+    .contact-form-row-three-icon {
+        margin-left: 30px;
+        display: inline-flex;
+    }
+
+    .contact-form-row-three-icon .fa-facebook {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-twitter {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-google {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-linkedin {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ontact-form-row-three-icon .fa-github {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-device-width : 991px) {
+
+    /*-- welcome --*/
+    welcome {
+        height: 35vh;
+    }
+
+    .logo {
+        flex-basis: 35%;
+    }
+
+    nav {
+        flex-basis: 65%;
+    }
+
+    .wlcm-banner-area-txt h1 {
+        font-size: 38px;
+    }
+
+    .wlcm-banner-area-txt p {
+        font-size: 17px;
+    }
+
+    /*-- service --*/
+    /*-- subscribe --*/
+    /*-- our-works --*/
+    .our-works-area-txt p {
+        width: 47%;
+    }
+
+    .our-works-area-total-part {
+        padding-top: 20px;
+    }
+
+    .our-works-area-part {
+        height: 195px;
+        margin-top: 13px;
+    }
+
+    .our-works-area-part-position h2 {
+        font-size: 10px;
+        font-weight: 800;
+    }
+
+    .our-works-area-part-position p {
+        font-size: 10px;
+        padding-top: 10px;
+    }
+
+    .our-works-area-part-btn a {
+        padding: 7px 7px;
+        margin: 15px 0;
+        font-size: 11px;
+    }
+
+    /*-- slider --*/
+    .slider-area p {
+        font-size: 22px;
+        width: 73%;
+    }
+
+    /*-- our-team --*/
+    .our-team-img-prt {
+        max-width: 25%;
+    }
+
+    .our-team-img-prt-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .our-team-img-prt h2 {
+        font-size: 15px;
+        padding: 20px 10px 0px;
+        text-align: justify;
+    }
+
+    .our-team-img-prt-icon {
+        padding: 20px 0 0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .our-team-img-prt-icon i {
+        font-size: 20px;
+    }
+
+    .our-team-img-prt p {
+        width: 82%;
+        margin-left: 12px;
+        text-align: justify;
+        padding: 0;
+        margin-top: 16px;
+        font-size: 15px;
+    }
+
+    /*-- contact --*/
+
+    .contact {
+        height: 50vh;
+    }
+
+    .contact > .mid {
+        position: absolute;
+        top: 32%;
+        left: 33%;
+        transform: translate(-30%, -28%);
+    }
+
+    .contact-form {
+        margin-top: 30px;
+    }
+
+    .contact-form-email input[type="email"] {
+        width: 55%;
+        margin: 0px 14px;
+        padding: 7px 0 7px 12px;
+    }
+
+    .contact-form-subject input[type="text"] {
+        width: 55%;
+        margin: 0px 14px;
+        padding: 7px 0 6px 12px;
+    }
+
+    .contact-form-row-three-btn a {
+        font-size: 10px;
+        padding: 7px 30px;
+        text-align: center;
+        margin: 25px -2px;
+    }
+
+    .contact-form-row-three-icon {
+        margin-right: -5px;
+        display: inline-flex;
+    }
+
+    .contact-form-row-three-icon .fa-facebook {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-twitter {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-google {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-linkedin {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ontact-form-row-three-icon .fa-github {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-device-width : 1199px) {
+
+    /*-- welcome --*/
+    .welcome {
+        height: 70vh;
+    }
+
+    .logo {
+        flex-basis: 35%;
+    }
+
+    nav {
+        flex-basis: 65%;
+    }
+
+    .wlcm-banner-area-txt h1 {
+        font-size: 50px;
+    }
+
+    .wlcm-banner-area-txt p {
+        font-size: 21px;
+    }
+
+    /*-- service --*/
+    /*-- subscribe --*/
+    .subscribe-btn input[type="submit"] {
+        padding: 10px 50px;
+    }
+
+    /*-- our-works --*/
+    .our-works-area-txt p {
+        width: 47%;
+    }
+
+    .our-works-area-total-part {
+        padding-top: 20px;
+    }
+
+    .our-works-area-part {
+        height: 195px;
+        margin-top: 13px;
+    }
+
+    .our-works-area-part-position h2 {
+        font-size: 3;
+        font-weight: 800;
+    }
+
+    .our-works-area-part-position p {
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    .our-works-area-part-btn a {
+        padding: 9px 18px;
+        margin: 15px 0;
+        font-size: 11px;
+    }
+
+    /*-- slider --*/
+    .slider-area p {
+        font-size: 22px;
+        width: 73%;
+    }
+
+    /*-- our-team --*/
+    .our-team-img-prt {
+        max-width: 25%;
+    }
+
+    .our-team-img-prt-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .our-team-img-prt h2 {
+        font-size: 20px;
+        padding: 20px 10px 0px;
+        text-align: justify;
+    }
+
+    .our-team-img-prt-icon {
+        padding: 20px 0 0px;
+        display: inline-block;
+        width: 100%;
+    }
+
+    .our-team-img-prt-icon i {
+        font-size: 20px;
+    }
+
+    .our-team-img-prt p {
+        width: 82%;
+        margin-left: 12px;
+        text-align: justify;
+        padding: 0;
+        margin-top: 19px;
+        font-size: 15px;
+    }
+
+    /*-- contact --*/
+
+    .contact {
+        height: 50vh;
+    }
+
+    .contact > .mid {
+        position: absolute;
+        top: 32%;
+        left: 33%;
+        transform: translate(-30%, -28%);
+    }
+
+    .contact-form {
+        margin-top: 30px;
+    }
+
+    .contact-form-email input[type="email"] {
+        width: 58%;
+        margin: 0px 14px;
+        padding: 7px 0 7px 12px;
+    }
+
+    .contact-form-subject input[type="text"] {
+        width: 58%;
+        margin: 0px 14px;
+        padding: 7px 0 6px 12px;
+    }
+
+    .contact-form-row-three-btn a {
+        font-size: 10px;
+        padding: 7px 30px;
+        text-align: center;
+        margin: 25px -2px;
+    }
+
+    .contact-form-row-three-icon {
+        margin-right: -5px;
+        display: inline-flex;
+    }
+
+    .contact-form-row-three-icon .fa-facebook {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-twitter {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-google {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-linkedin {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ontact-form-row-three-icon .fa-github {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+    /*-- welcome --*/
+    .welcome {
+        height: 85vh;
+    }
+
+    .logo {
+        flex-basis: 35%;
+    }
+
+    nav {
+        flex-basis: 65%;
+    }
+
+    .wlcm-banner-area-txt h1 {
+        font-size: 60px;
+    }
+
+    .wlcm-banner-area-txt p {
+        font-size: 26px;
+    }
+
+    /*-- service --*/
+    /*-- subscribe --*/
+    .subscribe-btn input[type="submit"] {
+        padding: 10px 50px;
+    }
+
+    /*-- our-works --*/
+
+
+    /*-- slider --*/
+    .slider-area p {
+        font-size: 22px;
+        width: 73%;
+    }
+
+    /*-- our-works --*/
+    .our-works-area-txt p {
+        width: 55%;
+    }
+
+    .our-works-area-part {
+        height: 308px;
+    }
+
+    .our-works-area-part-position h2 {
+        font-size: 24px;
+        font-weight: 800;
+    }
+
+    .our-works-area-part-position p {
+        padding: 15px 0px 8px;
+        font-size: 18px;
+    }
+
+    .our-works-area-part-btn a {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    /*-- our-team --*/
+    .our-team-img-prt {
+        max-width: 25%;
+    }
+
+    .our-team-img-prt-img {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .our-team-img-prt h2 {
+        font-size: 25px;
+        padding: 20px 10px 0px;
+        text-align: justify;
+    }
+
+    .our-team-img-prt-icon {
+        padding: 20px 0 0px;
+        display: inline-flex;
+        width: 100%;
+    }
+
+    .our-team-img-prt-icon i {
+        font-size: 40px;
+        margin: 0 14px;
+    }
+
+    .our-team-img-prt p {
+        width: 90%;
+        margin: 20px auto;
+        text-align: justify;
+        padding: 0;
+        font-size: 25px;
+    }
+
+    /*-- contact --*/
+
+    .contact {
+        height: 65vh;
+    }
+
+    .contact > .mid {
+        position: absolute;
+        top: 32%;
+        left: 33%;
+        transform: translate(-30%, -28%);
+    }
+
+    .contact-form {
+        margin-top: 30px;
+    }
+
+    .contact-txt p {
+        font-size: 28px;
+        padding: 25px 0 15px;
+    }
+
+    .contact-form-email input[type="email"] {
+        width: 60%;
+        margin: 0px 14px;
+        padding: 7px 0 7px 12px;
+    }
+
+    .contact-form-subject input[type="text"] {
+        width: 60%;
+        margin: 0px 14px;
+        padding: 7px 0 6px 12px;
+    }
+
+    .contact-form-row-three-btn {
+        margin-left: 7px;
+    }
+
+    .contact-form-row-three-btn a {
+        font-size: 10px;
+        padding: 7px 30px;
+        text-align: center;
+        margin: 25px 4px;
+    }
+
+    .contact-form-row-three-icon {
+        margin-right: 10px;
+        display: inline-flex;
+    }
+
+    .contact-form-row-three-icon .fa-facebook {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-twitter {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-google {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .contact-form-row-three-icon .fa-linkedin {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+    .ontact-form-row-three-icon .fa-github {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+    }
+
+}
