@@ -1,0 +1,318 @@
+/* FONTS START */
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600,700|Open+Sans&display=swap");
+
+/* 
+font-family: 'Open Sans', sans-serif;
+font-family: 'Montserrat', sans-serif;
+*/
+/* FONTS END */
+/* GLOBAL SETUP START */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+section {
+    padding: 100px 0;
+}
+
+.cmn-head hr {
+    border: none;
+    border-bottom: 4px solid #f2622c;
+    width: 60px;
+}
+
+.cmn-head h2 {
+    text-align: center;
+    color: #28377e;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.menu a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+}
+
+p {
+    font-family: "Open Sans", sans-serif;
+    color: #929dcf;
+    font-size: 14px;
+}
+
+.navbar-light .navbar-toggler {
+    outline: none;
+}
+
+/* GLOBAL SETUP END */
+/* HEADER SETUP START */
+#header {
+    padding: 35px 0;
+}
+
+ul.navbar-nav.ml-auto li.nav-item a.nav-link {
+    text-transform: uppercase;
+    font-weight: 800;
+    color: hsl(213, 62%, 33%, 0.8) !important;
+    font-size: 12px;
+}
+
+ul.navbar-nav.ml-auto li.nav-item.active a.nav-link {
+    color: #28377e !important;
+}
+
+.navbar {
+    background: transparent !important;
+}
+
+/* HEADER SETUP END */
+/* BANNER SETUP START */
+#banner {
+    height: 83.8vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.banner-txt h1 {
+    font-size: 82px;
+    font-weight: 700;
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+/* BANNER SETUP END */
+/* WHO SETUP START */
+.who-img img {
+    width: 400px;
+    height: 480px;
+}
+
+/* WHO SETUP END */
+/* WHAT SETUP START */
+#what {
+    background-color: #f7f8f8;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.what-head {
+    margin-bottom: 50px;
+}
+
+.what-img {
+    height: 450px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(43, 47, 133, 1);
+    position: relative;
+    margin-top: 30px;
+}
+
+.what-img h3 {
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+    width: 80%;
+}
+
+.what-img img {
+    position: absolute;
+    bottom: 80px;
+}
+
+/* WHAT SETUP END */
+/* ATTORNEYS SETUP START */
+#attorieys {
+    margin-top: 100px;
+    background-color: rgba(42, 57, 126, 1);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.attorieys-head-total {
+    margin-top: 30px;
+}
+
+.attorieys-head hr {
+    margin-left: 0;
+}
+
+.attorieys-head h2 {
+    color: #fff;
+    text-align: left;
+    width: 50%;
+}
+
+.attorieys-head a,
+.lang-content a {
+    color: #f2622c;
+    font-weight: 700;
+}
+
+.attorieys-head p {
+    width: 80%;
+}
+
+.dmn {}
+
+.dmn .col-sm-4.attorieys-img .attorieys-img-content {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.attorieys-img {
+    margin-top: 30px;
+}
+
+.attorieys-img-content {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.attorieys-img-content::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(43, 47, 133, 0.2);
+}
+
+.attorieys-img h3 {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    color: #fff;
+    font-weight: 700;
+}
+
+/* ATTORNEYS SETUP END */
+/* LANGUAGE SETUP START */
+.lang-head {
+    margin-bottom: 15px;
+}
+
+.lang-content {
+    margin-top: 30px;
+}
+
+.lang-content h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #28377e;
+}
+
+/* LANGUAGE SETUP END */
+/* CONTACT SETUP START */
+#contact {
+    background-color: #28377e;
+}
+
+.contact-head h2 {
+    color: #fff;
+    margin-bottom: 35px;
+}
+
+.form-control:focus {
+    color: #28377e;
+    background-color: #fff;
+    border: none;
+    outline: none;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+    width: 60%;
+    margin: 0 auto;
+}
+
+.contact-form form input {
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #4759a7;
+}
+
+.contact-form form input:placeholder-shown {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #fff;
+    color: #28377e;
+    padding: 0 0 0 10px;
+}
+
+.contact-form form input::-webkit-input-placeholder {
+    /* Chrome */
+    color: #28377e;
+    font-weight: 700;
+}
+
+.contact-form form input:-ms-input-placeholder {
+    /* IE 10+ */
+    color: #28377e;
+    font-weight: 700;
+}
+
+.contact-form form input::-moz-placeholder {
+    /* Firefox 19+ */
+    color: #28377e;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.contact-form form input:-moz-placeholder {
+    /* Firefox 4 - 18 */
+    color: #28377e;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.form-btn {
+    height: 45px;
+    width: 210px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2622c;
+    margin-top: 45px;
+}
+
+.form-btn a {
+    background-color: #f2622c;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: open sans;
+    color: #fff;
+}
+
+/* CONTACT SETUP END */
+/* FOOTER SETUP START */
+#footer {
+    padding: 0;
+    height: 120px;
+    background-color: #0c1234;
+}
+
+.footer-icon i {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    background: transparent;
+    color: #b1b7dd;
+    font-size: 20px;
+}
+
+/* FOOTER SETUP END */

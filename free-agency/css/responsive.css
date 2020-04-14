@@ -1,0 +1,2725 @@
+/* Small devices (phones, 576px and down) */
+@media only screen and (min-width: 576px){
+
+    /*header-one*/
+    .header-one {
+        height: 30px;
+        align-items: center;
+        display: flex;
+    }
+
+    .header-one > .mid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-one-content ul li {
+        display: inline-block;
+        padding: 0px 4px;
+    }
+
+    .header-one-content ul li a {
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+
+    .header-one-content ul .fa-facebook {
+        padding: 4px 7px;
+        border-radius: 13px;
+    }
+
+
+    /*header-two*/
+    .logo {
+        flex-basis: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    nav {
+        flex-basis: 100%;
+        margin-top: 15px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+
+    nav ul li a:hover {
+        border-bottom: 2px solid #DD2A24;
+    }
+
+    .header-button a {
+        font-size: 14px;
+        padding: 6px 4px;
+        border-radius: 3px;
+        margin-left: 5px;
+    }
+
+    /* banner setup Start */
+        .banner {
+        height: 35vh;
+    }
+
+.banner h1 {
+    font-size: 30px;
+    }
+.banner p {
+    font-size: 16px;}
+.banner-button a {
+    font-size: 20px;
+    padding: 12px 16px;
+}
+    /* about-us setup Start */
+    .about-us {
+    padding: 20px 0px;
+}
+    .about-us-area h2 {
+    font-size: 30px;
+}
+    .about-us-prt {
+    flex-basis: 100%;
+}
+    
+    /* our-approch setup Start */
+    .our-approch {
+    padding: 20px 0;
+}
+    .our-approch-area-txt h2 {
+    font-size: 30px;
+}
+    .our-approch-area-txt p {
+    font-size: 16px;
+    margin-top: 2px;
+    }
+    .our-approch-area-prt-one {
+    margin-top: 25px;
+}
+    .our-approch-area-prt-one {
+    margin-top: 25px;
+}
+    .our-approch-area-prt-one-img {}
+    
+    .our-approch-area-prt-one-txt h3 {
+    font-size: 18px;
+}
+    .our-approch-area-prt-one-txt p {
+    font-size: 10px;
+    color: #5c5c5c;
+    width: 100%;
+    margin-top: 0px;
+}
+    
+   .our-approch-area-prt-one-step {
+    height: 50px;
+       width: 50px;} 
+    
+    .our-approch-area-prt-one-step h2 {
+    font-size: 25px;
+}
+    .our-approch-area-prt-one-step p {
+    font-size: 14px;
+    margin-top: -8px;
+}
+    .our-approch-area-prt-two-txt p {
+    margin-top: 4px;
+    font-size: 9px;
+    width: 100%;
+}
+  .our-approch-area-prt-two-step {
+    height: 50px;
+    width: 50px;
+    right: 28.5%;
+    top: 50%;
+    transform: translate(-31.5%, -50%);
+    }  
+    .our-approch-area-prt-two-step h2 {
+    font-size: 25px;
+}
+    .our-approch-area-prt-two-step p {
+    font-size: 14px;
+    margin-top: -8px;
+}
+    
+    /* our-work setup Start */
+    .our-work {
+    padding: 20px 0 30px;
+}
+    .our-work-area h2 {
+    font-size: 30px;
+}
+    .our-work-area p {
+    font-size: 14px;
+}
+   .our-work-area hr {
+    margin: 10px auto;
+} 
+    .our-area-part-total {
+	padding-top: 0px;
+}
+    .our-area-part {
+	flex-basis: 100%;
+	height: 350px;
+	margin-top: 20px;
+}
+    .our-area-part-content i {
+	margin-top: 40px;
+}
+    .our-area-part-img {
+	height: 350px;
+}
+    .our-area-part-img img {
+	width: 100%;
+	height: 100%;
+}
+    
+    /* contact setup Start */
+.contact-area {
+	padding: 20px 0 30px;
+}
+    .contact-txt h2 {
+	font-size: 25px
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+    .contact-txt p {
+	font-size: 16px;
+}
+    .contact-txt i {
+	font-size: 50px;
+}
+    .contact-form {
+	width: 100%;
+}
+.contact-form-button a {
+	padding: 7px 9px;
+	font-size: 12px;
+}
+    
+    /* touch setup Start */
+    .touch {
+	padding: 20px 0 45px;
+}
+    .touch-arae h2 {
+	font-size: 25px;
+}
+    .touch-icon i {
+	padding: 5px 5px;
+	margin: 0 6px 0;
+	font-size: 18px;
+}
+    .touch-arae input[type="email"] {
+	height: 30px;
+	width: 100%;
+}
+    .touch-button {
+	margin-top: 25px;
+}
+    .touch-button a {
+	padding: 5px 20px;
+	font-size: 14px;
+}
+    /* footer setup Start */
+
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+
+/* basic setup start */
+* {
+}
+
+.mid {
+}
+
+h1 {font-size: 40px !important;}
+
+h2 {font-size: 34px !important;}
+
+h3 {
+}
+
+h4 {}
+
+p {}
+
+a {
+}
+
+ul li {
+}
+
+/* basic setup End */
+
+/* pre-setuped Start */
+.header {}
+
+header {}
+
+/*header-one*/
+.header-one {height: 50px;}
+
+.header-one > .mid {
+}
+
+.header-one-content {}
+
+.header-one-content ul {}
+
+.header-one-content ul .h-b-r {
+}
+
+.header-one-content ul .fa-mobile {font-size: 25px;}
+
+.header-one-content ul .fa-envelope {
+}
+
+.header-one-content ul .fa-facebook {padding: 3px 8px;font-size: 22px;}
+
+.header-one-content ul li {padding: 4px 8px;}
+
+.header-one-content ul li a {padding: 4px 0px 5px;}
+
+.header-one-content ul li a i {
+}
+
+.header-one-content ul li a .fa-android {}
+
+.header-one-content ul li a .fa-envelope {}
+
+.header-one-content ul li a .fa-facebook {}
+
+/*header-two*/
+.header-two {margin-top: 25px;}
+
+.header-two > .mid {
+}
+
+.logo {
+}
+
+.logo img {}
+
+nav {
+}
+
+nav ul {}
+
+nav ul li {
+    /* list-style: circle; */
+}
+
+nav ul li a:hover {
+}
+
+nav ul li a {font-size: 18px;}
+
+.header-button {}
+
+.header-button a {font-size: 20px;}
+
+/* pre-setuped End */
+
+/* banner setup Start */
+.banner {margin-top: 26px;}
+
+.banner > .mid {
+}
+
+.banner h1 {
+}
+
+.banner p {font-size: 24px;}
+
+.banner-button {
+}
+
+.banner-button a {
+}
+
+/* banner setup end */
+
+/* about-us setup Start */
+.about-us {padding: 40px 0px;}
+
+.about-us > .mid {
+}
+
+.about-us-area {}
+
+.about-us-area h2 {
+}
+
+.about-us-area p {}
+
+.about-us-area hr {
+}
+
+/* about-us-prt*/
+.about-us-prt-totla {
+}
+
+.about-us-prt {
+}
+
+.about-us-prt i {
+}
+
+.about-us-prt .fa-thumbs-up {
+}
+
+.about-us-prt .fa-book {
+}
+
+.about-us-prt .fa-comments {
+}
+
+.about-us-prt h3 {
+}
+
+.about-us-prt p {
+}
+
+/* about-us setup end */
+
+/* our-approch setup Start */
+.our-approch {
+}
+
+.our-approch > .mid {}
+
+.our-approch-area {}
+
+.our-approch-area-txt {
+}
+
+.our-approch-area-txt h2 {
+}
+
+.our-approch-area-txt p {
+}
+
+.our-approch-area-txt hr {
+}
+
+.our-approch-area-total-prt {
+}
+
+/*our-approch-area-prt-one*/
+.our-approch-area-prt-one {
+}
+
+.our-approch-area-prt-one-img {
+}
+
+.our-approch-area-prt-one-img img {
+}
+
+.our-approch-area-prt-one-txt {
+}
+
+.our-approch-area-prt-one-txt-for-center {
+}
+
+.our-approch-area-prt-one-txt h3 {
+}
+
+.our-approch-area-prt-one-txt p {}
+
+.our-approch-area-prt-one-step {}
+
+.our-approch-area-prt-one-step h2 {margin-top: 0px;}
+
+.our-approch-area-prt-one-step p {
+}
+
+/*our-approch-area-prt-two*/
+.our-approch-area-prt-two {
+}
+
+.our-approch-area-prt-two-img {
+}
+
+.our-approch-area-prt-two-img img {
+}
+
+.our-approch-area-prt-two-txt {
+}
+
+.our-approch-area-prt-two-txt-for-center {
+}
+
+.our-approch-area-prt-two-txt h3 {
+}
+
+.our-approch-area-prt-two-txt p {
+}
+
+.our-approch-area-prt-two-step {right: 31.5%;transform: translate(-31.5%, -50%);}
+
+.our-approch-area-prt-two-step h2 {margin-top: 0px;}
+
+.our-approch-area-prt-two-step p {
+}
+
+
+/* our-approch setup end */
+
+/* our-work setup Start */
+.our-work {padding: 40px 0 50px;}
+
+.our-work > .mid {}
+
+.our-work-area {}
+
+.our-work-area h2 {
+}
+
+.our-work-area p {font-size: 20px;}
+
+.our-work-area hr {margin: 20px auto -10px;}
+
+/*our-area-part-total*/
+.our-area-part-total {
+}
+
+.our-area-part {height: 350px;margin-top: 35px;flex-basis: 50%;}
+
+.our-area-part-content {
+}
+
+.our-area-part-content i {margin-top: 80px;}
+
+.our-area-part-content h3 {
+}
+
+.our-area-part-content p {
+}
+
+.our-area-part-img {
+    height: 350px;
+}
+
+.our-area-part-img img {
+}
+
+/* our-work setup end */
+
+/* contact setup Start */
+.contact {
+}
+
+.contact > .mid {}
+
+.contact-area {padding: 40px 0 50px;}
+
+.contact-txt {
+}
+
+.contact-txt h2 {
+}
+
+.contact-txt p {font-size: 20px;}
+
+.contact-txt i {font-size: 60px;}
+
+.contact-form {
+}
+
+.contact-form p {
+}
+
+.contact-form input[type=text] {
+}
+
+.contact-form input[type=number] {
+}
+
+.contact-form-button {
+}
+
+.contact-form-button a {
+}
+
+/* contact setup end */
+
+/* basic setup Start */
+.touch {
+}
+
+.touch > .mid {}
+
+.touch-arae {
+}
+
+.touch-arae h2 {
+}
+
+.touch-arae p {
+}
+
+.touch-icon {
+}
+
+.touch-icon i {padding: 6px 7px;margin: 0 12px 0;font-size: 24px;}
+
+.touch-arae input[type="email"] {height: 40px;}
+
+.touch-button {margin-top: 32px;}
+
+.touch-button a {padding: 7px 24px;font-size: 20px;}
+
+/* basic setup end */
+
+/* footer setup Start */
+.footer {
+}
+
+.footer > .mid {}
+
+footer {}
+
+footer p {
+}
+
+/* footer setup end */
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+
+/* basic setup start */
+* {
+}
+
+.mid {
+}
+
+h1 {}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {}
+
+p {
+}
+
+a {
+}
+
+ul li {
+}
+
+/* basic setup End */
+
+/* pre-setuped Start */
+.header {}
+
+header {}
+
+/*header-one*/
+.header-one {height: 60px;}
+
+.header-one > .mid {
+}
+
+.header-one-content {}
+
+.header-one-content ul {}
+
+.header-one-content ul .h-b-r {
+}
+
+.header-one-content ul .fa-mobile {
+}
+
+.header-one-content ul .fa-envelope {
+}
+
+.header-one-content ul .fa-facebook {
+}
+
+.header-one-content ul li {
+}
+
+.header-one-content ul li a {font-size: 22px;}
+
+.header-one-content ul li a i {
+}
+
+.header-one-content ul li a .fa-android {}
+
+.header-one-content ul li a .fa-envelope {}
+
+.header-one-content ul li a .fa-facebook {}
+
+/*header-two*/
+.header-two {
+}
+
+.header-two > .mid {
+}
+
+.logo {flex-basis: 30%;}
+
+.logo img {
+    /* width: 100%; */
+}
+
+nav {flex-basis: 70%;justify-content: flex-end;}
+
+nav ul {}
+
+nav ul li {
+    /* list-style: circle; */
+}
+
+nav ul li a:hover {
+}
+
+nav ul li a {font-size: 18px;}
+
+.header-button {}
+
+.header-button a {font-size: 16px;padding: 11px 8px;}
+
+/* pre-setuped End */
+
+/* banner setup Start */
+.banner {height: 70vh;}
+
+.banner > .mid {
+}
+
+.banner h1 {font-size: 48px !important;}
+
+.banner p {
+}
+
+.banner-button {
+}
+
+.banner-button a {
+}
+
+/* banner setup end */
+
+/* about-us setup Start */
+.about-us {
+}
+
+.about-us > .mid {
+}
+
+.about-us-area {}
+
+.about-us-area h2 {font-size: 36px !important;}
+
+.about-us-area p {
+}
+
+.about-us-area hr {
+}
+
+/* about-us-prt*/
+.about-us-prt-totla {
+}
+
+.about-us-prt {flex-basis: 33%;}
+
+.about-us-prt i {
+}
+
+.about-us-prt .fa-thumbs-up {
+}
+
+.about-us-prt .fa-book {
+}
+
+.about-us-prt .fa-comments {
+}
+
+.about-us-prt h3 {
+}
+
+.about-us-prt p {text-align: justify;width: 90%;margin: 10px auto 0;}
+
+/* about-us setup end */
+
+/* our-approch setup Start */
+.our-approch {
+}
+
+.our-approch > .mid {}
+
+.our-approch-area {}
+
+.our-approch-area-txt {
+}
+
+.our-approch-area-txt h2 {
+}
+
+.our-approch-area-txt p {
+}
+
+.our-approch-area-txt hr {
+}
+
+.our-approch-area-total-prt {
+}
+
+/*our-approch-area-prt-one*/
+.our-approch-area-prt-one {
+}
+
+.our-approch-area-prt-one-img {
+}
+
+.our-approch-area-prt-one-img img {
+}
+
+.our-approch-area-prt-one-txt {
+}
+
+.our-approch-area-prt-one-txt-for-center {
+}
+
+.our-approch-area-prt-one-txt h3 {
+}
+
+.our-approch-area-prt-one-txt p {font-size: 16px;margin-top: 6px;}
+
+.our-approch-area-prt-one-step {height: 80px;width: 80px;}
+
+.our-approch-area-prt-one-step h2 {margin-top: 12px;}
+
+.our-approch-area-prt-one-step p {
+}
+
+/*our-approch-area-prt-two*/
+.our-approch-area-prt-two {
+}
+
+.our-approch-area-prt-two-img {
+}
+
+.our-approch-area-prt-two-img img {
+}
+
+.our-approch-area-prt-two-txt {
+}
+
+.our-approch-area-prt-two-txt-for-center {
+}
+
+.our-approch-area-prt-two-txt h3 {
+}
+
+.our-approch-area-prt-two-txt p {font-size: 16px;margin-top: 6px;}
+
+.our-approch-area-prt-two-step {height: 80px;width: 80px;right: 30.5%;transform: translate(-30.5%, -50%);}
+
+.our-approch-area-prt-two-step h2 {
+    margin-top: 12px;
+}
+
+.our-approch-area-prt-two-step p {
+}
+
+
+/* our-approch setup end */
+
+/* our-work setup Start */
+.our-work {padding: 60px 0 70px;}
+
+.our-work > .mid {}
+
+.our-work-area {}
+
+.our-work-area h2 {
+}
+
+.our-work-area p {
+}
+
+.our-work-area hr {
+}
+
+/*our-area-part-total*/
+.our-area-part-total {
+}
+
+.our-area-part {margin-top: 0;flex-basis: 25%;height: 250px;}
+
+.our-area-part-content {
+}
+
+.our-area-part-content i {margin-top: -5px;}
+
+.our-area-part-content h3 {
+}
+
+.our-area-part-content p {
+}
+
+.our-area-part-img {
+    height: 250px;
+}
+
+.our-area-part-img img {height: 100%;}
+
+/* our-work setup end */
+
+/* contact setup Start */
+.contact {
+}
+
+.contact > .mid {}
+
+.contact-area {padding: 60px 0 70px;}
+
+.contact-txt {
+}
+
+.contact-txt h2 {
+}
+
+.contact-txt p {
+}
+
+.contact-txt i {
+}
+
+.contact-form {
+}
+
+.contact-form p {
+}
+
+.contact-form input[type=text] {
+}
+
+.contact-form input[type=number] {
+}
+
+.contact-form-button {
+}
+
+.contact-form-button a {padding: 10px 40px;font-size: 16px;}
+
+/* contact setup end */
+
+/* basic setup Start */
+.touch {
+}
+
+.touch > .mid {}
+
+.touch-arae {
+}
+
+.touch-arae h2 {
+}
+
+.touch-arae p {
+}
+
+.touch-icon {
+}
+
+.touch-icon i {
+}
+
+.touch-arae input[type="email"] {width: 30%;height: 40px;}
+
+.touch-button {
+}
+
+.touch-button a {
+}
+
+/* basic setup end */
+
+/* footer setup Start */
+.footer {
+}
+
+.footer > .mid {}
+
+footer {}
+
+footer p {
+}
+
+/* footer setup end */
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+
+/* basic setup start */
+* {
+}
+
+.mid {
+}
+
+h1 {}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {}
+
+p {
+}
+
+a {
+}
+
+ul li {
+}
+
+/* basic setup End */
+
+/* pre-setuped Start */
+.header {}
+
+header {}
+
+/*header-one*/
+.header-one {
+}
+
+.header-one > .mid {
+}
+
+.header-one-content {}
+
+.header-one-content ul {}
+
+.header-one-content ul .h-b-r {
+}
+
+.header-one-content ul .fa-mobile {
+}
+
+.header-one-content ul .fa-envelope {
+}
+
+.header-one-content ul .fa-facebook {
+}
+
+.header-one-content ul li {
+}
+
+.header-one-content ul li a {
+}
+
+.header-one-content ul li a i {
+}
+
+.header-one-content ul li a .fa-android {}
+
+.header-one-content ul li a .fa-envelope {}
+
+.header-one-content ul li a .fa-facebook {}
+
+/*header-two*/
+.header-two {
+}
+
+.header-two > .mid {
+}
+
+.logo {
+}
+
+.logo img {}
+
+nav {
+}
+
+nav ul {}
+
+nav ul li {
+    /* list-style: circle; */
+}
+
+nav ul li a:hover {
+}
+
+nav ul li a {
+}
+
+.header-button {}
+
+.header-button a {
+}
+
+/* pre-setuped End */
+
+/* banner setup Start */
+.banner {height: 80vh;}
+
+.banner > .mid {
+}
+
+.banner h1 {
+}
+
+.banner p {padding: 12px 0 7px;}
+
+.banner-button {
+}
+
+.banner-button a {
+}
+
+/* banner setup end */
+
+/* about-us setup Start */
+.about-us {padding: 100px 0;}
+
+.about-us > .mid {
+}
+
+.about-us-area {}
+
+.about-us-area h2 {
+}
+
+.about-us-area p {
+}
+
+.about-us-area hr {
+}
+
+/* about-us-prt*/
+.about-us-prt-totla {
+}
+
+.about-us-prt {
+}
+
+.about-us-prt i {
+}
+
+.about-us-prt .fa-thumbs-up {
+}
+
+.about-us-prt .fa-book {
+}
+
+.about-us-prt .fa-comments {
+}
+
+.about-us-prt h3 {
+}
+
+.about-us-prt p {
+}
+
+/* about-us setup end */
+
+/* our-approch setup Start */
+.our-approch {padding: 100px 0;}
+
+.our-approch > .mid {}
+
+.our-approch-area {}
+
+.our-approch-area-txt {
+}
+
+.our-approch-area-txt h2 {font-size: 36px !important;}
+
+.our-approch-area-txt p {margin-top: 15px;}
+
+.our-approch-area-txt hr {
+}
+
+.our-approch-area-total-prt {
+}
+
+/*our-approch-area-prt-one*/
+.our-approch-area-prt-one {
+}
+
+.our-approch-area-prt-one-img {
+}
+
+.our-approch-area-prt-one-img img {
+}
+
+.our-approch-area-prt-one-txt {
+}
+
+.our-approch-area-prt-one-txt-for-center {
+}
+
+.our-approch-area-prt-one-txt h3 {
+}
+
+.our-approch-area-prt-one-txt p {
+}
+
+.our-approch-area-prt-one-step {height: 100px;width: 100px;left: 29.5%;transform: translate(-35.5%, -50%);}
+
+.our-approch-area-prt-one-step h2 {margin-top: 20px;}
+
+.our-approch-area-prt-one-step p {
+}
+
+/*our-approch-area-prt-two*/
+.our-approch-area-prt-two {
+}
+
+.our-approch-area-prt-two-img {
+}
+
+.our-approch-area-prt-two-img img {
+}
+
+.our-approch-area-prt-two-txt {
+}
+
+.our-approch-area-prt-two-txt-for-center {
+}
+
+.our-approch-area-prt-two-txt h3 {
+}
+
+.our-approch-area-prt-two-txt p {
+}
+
+.our-approch-area-prt-two-step {height: 100px;width: 100px;right: 30.5%;transform: translate(-26.5%, -50%);}
+
+.our-approch-area-prt-two-step h2 {margin-top: 20px;}
+
+.our-approch-area-prt-two-step p {
+}
+
+
+/* our-approch setup end */
+
+/* our-work setup Start */
+.our-work {padding: 100px 0 120px;}
+
+.our-work > .mid {}
+
+.our-work-area {}
+
+.our-work-area h2 {font-size: 36px !important;}
+
+.our-work-area p {margin-top: 10px;}
+
+.our-work-area hr {
+}
+
+/*our-area-part-total*/
+.our-area-part-total {
+}
+
+.our-area-part {margin-top: 0;/* flex-basis: 25%; */}
+
+.our-area-part-content {
+}
+
+.our-area-part-content i {
+}
+
+.our-area-part-content h3 {
+}
+
+.our-area-part-content p {margin-top: 0;}
+
+.our-area-part-img {}
+
+.our-area-part-img img {
+}
+
+/* our-work setup end */
+
+/* contact setup Start */
+.contact {
+}
+
+.contact > .mid {}
+
+.contact-area {
+    padding: 100px 0 120px;
+}
+
+.contact-txt {
+}
+
+.contact-txt h2 {font-size: 36px !important;}
+
+.contact-txt p {margin-top: 10px;}
+
+.contact-txt i {
+}
+
+.contact-form {
+}
+
+.contact-form p {
+}
+
+.contact-form input[type=text] {
+}
+
+.contact-form input[type=number] {
+}
+
+.contact-form-button {
+}
+
+.contact-form-button a {
+}
+
+/* contact setup end */
+
+/* basic setup Start */
+.touch {padding: 100px 0;}
+
+.touch > .mid {}
+
+.touch-arae {
+}
+
+.touch-arae h2 {font-size: 36px !important;}
+
+.touch-arae p {
+}
+
+.touch-icon {
+}
+
+.touch-icon i {
+}
+
+.touch-arae input[type="email"] {width: 33%;height: 40px;}
+
+.touch-button {
+}
+
+.touch-button a {
+}
+
+/* basic setup end */
+
+/* footer setup Start */
+.footer {
+}
+
+.footer > .mid {}
+
+footer {}
+
+footer p {
+}
+
+/* footer setup end */
+}
+
+/*header-one*/
+/*header-two*/
+/* banner setup Start */
+/* about-us setup Start */
+/* our-approch setup Start */
+/* our-work setup Start */
+/* contact setup Start */
+/* touch setup Start */
+/* footer setup Start *//* Small devices (phones, 576px and down) */
+@media only screen and (min-width: 576px){
+
+    /*header-one*/
+    .header-one {
+        height: 30px;
+        align-items: center;
+        display: flex;
+    }
+
+    .header-one > .mid {
+        display: flex;
+        justify-content: center;
+    }
+
+    .header-one-content ul li {
+        display: inline-block;
+        padding: 0px 4px;
+    }
+
+    .header-one-content ul li a {
+        font-size: 14px;
+        padding: 5px 0px;
+    }
+
+    .header-one-content ul .fa-facebook {
+        padding: 4px 7px;
+        border-radius: 13px;
+    }
+
+
+    /*header-two*/
+    .logo {
+        flex-basis: 100%;
+        justify-content: center;
+        display: flex;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    nav {
+        flex-basis: 100%;
+        margin-top: 15px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav ul li a {
+        font-size: 14px;
+        padding: 4px 10px;
+    }
+
+    nav ul li a:hover {
+        border-bottom: 2px solid #DD2A24;
+    }
+
+    .header-button a {
+        font-size: 14px;
+        padding: 6px 4px;
+        border-radius: 3px;
+        margin-left: 5px;
+    }
+
+    /* banner setup Start */
+        .banner {
+        height: 35vh;
+    }
+
+.banner h1 {
+    font-size: 30px;
+    }
+.banner p {
+    font-size: 16px;}
+.banner-button a {
+    font-size: 10px;
+    padding: 9px 9px;
+}
+    /* about-us setup Start */
+    .about-us {
+    padding: 20px 0px;
+}
+    .about-us-area h2 {
+    font-size: 30px;
+}
+    .about-us-prt {
+    flex-basis: 100%;
+}
+    
+    /* our-approch setup Start */
+    .our-approch {
+    padding: 20px 0;
+}
+    .our-approch-area-txt h2 {
+    font-size: 30px;
+}
+    .our-approch-area-txt p {
+    font-size: 16px;
+    margin-top: 2px;
+    }
+    .our-approch-area-prt-one {
+    margin-top: 25px;
+}
+    .our-approch-area-prt-one {
+    margin-top: 25px;
+}
+    .our-approch-area-prt-one-img {}
+    
+    .our-approch-area-prt-one-txt h3 {
+    font-size: 18px;
+}
+    .our-approch-area-prt-one-txt p {
+    font-size: 10px;
+    color: #5c5c5c;
+    width: 100%;
+    margin-top: 0px;
+}
+    
+   .our-approch-area-prt-one-step {
+    height: 50px;
+       width: 50px;} 
+    
+    .our-approch-area-prt-one-step h2 {
+    font-size: 25px;
+}
+    .our-approch-area-prt-one-step p {
+    font-size: 14px;
+    margin-top: -8px;
+}
+    .our-approch-area-prt-two-txt p {
+    margin-top: 4px;
+    font-size: 9px;
+    width: 100%;
+}
+  .our-approch-area-prt-two-step {
+    height: 50px;
+    width: 50px;
+    right: 28.5%;
+    top: 50%;
+    transform: translate(-31.5%, -50%);
+    }  
+    .our-approch-area-prt-two-step h2 {
+    font-size: 25px;
+}
+    .our-approch-area-prt-two-step p {
+    font-size: 14px;
+    margin-top: -8px;
+}
+    
+    /* our-work setup Start */
+    .our-work {
+    padding: 20px 0 30px;
+}
+    .our-work-area h2 {
+    font-size: 30px;
+}
+    .our-work-area p {
+    font-size: 14px;
+}
+   .our-work-area hr {
+    margin: 10px auto;
+} 
+    .our-area-part-total {
+	padding-top: 0px;
+}
+    .our-area-part {
+	flex-basis: 100%;
+	height: 350px;
+	margin-top: 20px;
+}
+    .our-area-part-content i {
+	margin-top: 40px;
+}
+    .our-area-part-img {
+	height: 350px;
+}
+    .our-area-part-img img {
+	width: 100%;
+	height: 100%;
+}
+    
+    /* contact setup Start */
+.contact-area {
+	padding: 20px 0 30px;
+}
+    .contact-txt h2 {
+	font-size: 25px
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+}
+    .contact-txt p {
+	font-size: 16px;
+}
+    .contact-txt i {
+	font-size: 50px;
+}
+    .contact-form {
+	width: 100%;
+}
+.contact-form-button a {
+	padding: 7px 9px;
+	font-size: 12px;
+}
+    
+    /* touch setup Start */
+    .touch {
+	padding: 20px 0 45px;
+}
+    .touch-arae h2 {
+	font-size: 25px;
+}
+    .touch-icon i {
+	padding: 5px 5px;
+	margin: 0 6px 0;
+	font-size: 18px;
+}
+    .touch-arae input[type="email"] {
+	height: 30px;
+	width: 100%;
+}
+    .touch-button {
+	margin-top: 25px;
+}
+    .touch-button a {
+	padding: 5px 20px;
+	font-size: 14px;
+}
+    /* footer setup Start */
+
+
+
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    
+
+/* basic setup start */
+* {
+}
+
+.mid {
+}
+
+h1 {font-size: 40px !important;}
+
+h2 {font-size: 34px !important;}
+
+h3 {
+}
+
+h4 {}
+
+p {}
+
+a {
+}
+
+ul li {
+}
+
+/* basic setup End */
+
+/* pre-setuped Start */
+.header {}
+
+header {}
+
+/*header-one*/
+.header-one {height: 50px;}
+
+.header-one > .mid {
+}
+
+.header-one-content {}
+
+.header-one-content ul {}
+
+.header-one-content ul .h-b-r {
+}
+
+.header-one-content ul .fa-mobile {font-size: 25px;}
+
+.header-one-content ul .fa-envelope {
+}
+
+.header-one-content ul .fa-facebook {padding: 3px 8px;font-size: 22px;}
+
+.header-one-content ul li {padding: 4px 8px;}
+
+.header-one-content ul li a {padding: 4px 0px 5px;}
+
+.header-one-content ul li a i {
+}
+
+.header-one-content ul li a .fa-android {}
+
+.header-one-content ul li a .fa-envelope {}
+
+.header-one-content ul li a .fa-facebook {}
+
+/*header-two*/
+.header-two {margin-top: 25px;}
+
+.header-two > .mid {
+}
+
+.logo {
+}
+
+.logo img {}
+
+nav {
+}
+
+nav ul {}
+
+nav ul li {
+    /* list-style: circle; */
+}
+
+nav ul li a:hover {
+}
+
+nav ul li a {font-size: 18px;}
+
+.header-button {}
+
+.header-button a {font-size: 20px;}
+
+/* pre-setuped End */
+
+/* banner setup Start */
+.banner {margin-top: 26px;}
+
+.banner > .mid {
+}
+
+.banner h1 {
+}
+
+.banner p {font-size: 24px;}
+
+.banner-button {
+}
+
+.banner-button a {font-size: 18px;padding: 12px 13px;}
+
+/* banner setup end */
+
+/* about-us setup Start */
+.about-us {padding: 40px 0px;}
+
+.about-us > .mid {
+}
+
+.about-us-area {}
+
+.about-us-area h2 {
+}
+
+.about-us-area p {}
+
+.about-us-area hr {
+}
+
+/* about-us-prt*/
+.about-us-prt-totla {
+}
+
+.about-us-prt {
+}
+
+.about-us-prt i {
+}
+
+.about-us-prt .fa-thumbs-up {
+}
+
+.about-us-prt .fa-book {
+}
+
+.about-us-prt .fa-comments {
+}
+
+.about-us-prt h3 {
+}
+
+.about-us-prt p {
+}
+
+/* about-us setup end */
+
+/* our-approch setup Start */
+.our-approch {
+}
+
+.our-approch > .mid {}
+
+.our-approch-area {}
+
+.our-approch-area-txt {
+}
+
+.our-approch-area-txt h2 {
+}
+
+.our-approch-area-txt p {
+}
+
+.our-approch-area-txt hr {
+}
+
+.our-approch-area-total-prt {
+}
+
+/*our-approch-area-prt-one*/
+.our-approch-area-prt-one {
+}
+
+.our-approch-area-prt-one-img {
+}
+
+.our-approch-area-prt-one-img img {
+}
+
+.our-approch-area-prt-one-txt {
+}
+
+.our-approch-area-prt-one-txt-for-center {
+}
+
+.our-approch-area-prt-one-txt h3 {
+}
+
+.our-approch-area-prt-one-txt p {}
+
+.our-approch-area-prt-one-step {}
+
+.our-approch-area-prt-one-step h2 {margin-top: 0px;}
+
+.our-approch-area-prt-one-step p {
+}
+
+/*our-approch-area-prt-two*/
+.our-approch-area-prt-two {
+}
+
+.our-approch-area-prt-two-img {
+}
+
+.our-approch-area-prt-two-img img {
+}
+
+.our-approch-area-prt-two-txt {
+}
+
+.our-approch-area-prt-two-txt-for-center {
+}
+
+.our-approch-area-prt-two-txt h3 {
+}
+
+.our-approch-area-prt-two-txt p {
+}
+
+.our-approch-area-prt-two-step {right: 31.5%;transform: translate(-31.5%, -50%);}
+
+.our-approch-area-prt-two-step h2 {margin-top: 0px;}
+
+.our-approch-area-prt-two-step p {
+}
+
+
+/* our-approch setup end */
+
+/* our-work setup Start */
+.our-work {padding: 40px 0 50px;}
+
+.our-work > .mid {}
+
+.our-work-area {}
+
+.our-work-area h2 {
+}
+
+.our-work-area p {font-size: 20px;}
+
+.our-work-area hr {margin: 20px auto -10px;}
+
+/*our-area-part-total*/
+.our-area-part-total {
+}
+
+.our-area-part {height: 350px;margin-top: 35px;flex-basis: 50%;}
+
+.our-area-part-content {
+}
+
+.our-area-part-content i {margin-top: 80px;}
+
+.our-area-part-content h3 {
+}
+
+.our-area-part-content p {
+}
+
+.our-area-part-img {
+    height: 350px;
+}
+
+.our-area-part-img img {
+}
+
+/* our-work setup end */
+
+/* contact setup Start */
+.contact {
+}
+
+.contact > .mid {}
+
+.contact-area {padding: 40px 0 50px;}
+
+.contact-txt {
+}
+
+.contact-txt h2 {
+}
+
+.contact-txt p {font-size: 20px;}
+
+.contact-txt i {font-size: 60px;}
+
+.contact-form {
+}
+
+.contact-form p {
+}
+
+.contact-form input[type=text] {
+}
+
+.contact-form input[type=number] {
+}
+
+.contact-form-button {
+}
+
+.contact-form-button a {
+}
+
+/* contact setup end */
+
+/* basic setup Start */
+.touch {
+}
+
+.touch > .mid {}
+
+.touch-arae {
+}
+
+.touch-arae h2 {
+}
+
+.touch-arae p {
+}
+
+.touch-icon {
+}
+
+.touch-icon i {padding: 6px 7px;margin: 0 12px 0;font-size: 24px;}
+
+.touch-arae input[type="email"] {height: 40px;}
+
+.touch-button {margin-top: 32px;}
+
+.touch-button a {padding: 7px 24px;font-size: 20px;}
+
+/* basic setup end */
+
+/* footer setup Start */
+.footer {
+}
+
+.footer > .mid {}
+
+footer {}
+
+footer p {
+}
+
+/* footer setup end */
+}
+
+
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    
+
+/* basic setup start */
+* {
+}
+
+.mid {
+}
+
+h1 {}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {}
+
+p {
+}
+
+a {
+}
+
+ul li {
+}
+
+/* basic setup End */
+
+/* pre-setuped Start */
+.header {}
+
+header {}
+
+/*header-one*/
+.header-one {height: 60px;}
+
+.header-one > .mid {
+}
+
+.header-one-content {}
+
+.header-one-content ul {}
+
+.header-one-content ul .h-b-r {
+}
+
+.header-one-content ul .fa-mobile {
+}
+
+.header-one-content ul .fa-envelope {
+}
+
+.header-one-content ul .fa-facebook {
+}
+
+.header-one-content ul li {
+}
+
+.header-one-content ul li a {font-size: 22px;}
+
+.header-one-content ul li a i {
+}
+
+.header-one-content ul li a .fa-android {}
+
+.header-one-content ul li a .fa-envelope {}
+
+.header-one-content ul li a .fa-facebook {}
+
+/*header-two*/
+.header-two {margin-top: 0;}
+
+.header-two > .mid {
+}
+
+.logo {flex-basis: 30%;}
+
+.logo img {
+    /* width: 100%; */
+}
+
+nav {flex-basis: 70%;justify-content: flex-end;margin-top: 0;}
+
+nav ul {}
+
+nav ul li {
+    /* list-style: circle; */
+}
+
+nav ul li a:hover {
+}
+
+nav ul li a {font-size: 18px;}
+
+.header-button {}
+
+.header-button a {font-size: 16px;padding: 11px 8px;}
+
+/* pre-setuped End */
+
+/* banner setup Start */
+.banner {height: 70vh;margin-top: 0;}
+
+.banner > .mid {
+}
+
+.banner h1 {font-size: 48px !important;}
+
+.banner p {
+}
+
+.banner-button {
+}
+
+.banner-button a {font-size: 24px;padding: 23px 50px;}
+
+/* banner setup end */
+
+/* about-us setup Start */
+.about-us {
+}
+
+.about-us > .mid {
+}
+
+.about-us-area {}
+
+.about-us-area h2 {font-size: 36px !important;}
+
+.about-us-area p {
+}
+
+.about-us-area hr {
+}
+
+/* about-us-prt*/
+.about-us-prt-totla {
+}
+
+.about-us-prt {flex-basis: 33%;}
+
+.about-us-prt i {
+}
+
+.about-us-prt .fa-thumbs-up {
+}
+
+.about-us-prt .fa-book {
+}
+
+.about-us-prt .fa-comments {
+}
+
+.about-us-prt h3 {
+}
+
+.about-us-prt p {text-align: justify;width: 90%;margin: 10px auto 0;}
+
+/* about-us setup end */
+
+/* our-approch setup Start */
+.our-approch {
+}
+
+.our-approch > .mid {}
+
+.our-approch-area {}
+
+.our-approch-area-txt {
+}
+
+.our-approch-area-txt h2 {
+}
+
+.our-approch-area-txt p {
+}
+
+.our-approch-area-txt hr {
+}
+
+.our-approch-area-total-prt {
+}
+
+/*our-approch-area-prt-one*/
+.our-approch-area-prt-one {
+}
+
+.our-approch-area-prt-one-img {
+}
+
+.our-approch-area-prt-one-img img {
+}
+
+.our-approch-area-prt-one-txt {
+}
+
+.our-approch-area-prt-one-txt-for-center {
+}
+
+.our-approch-area-prt-one-txt h3 {
+}
+
+.our-approch-area-prt-one-txt p {font-size: 16px;margin-top: 6px;}
+
+.our-approch-area-prt-one-step {height: 80px;width: 80px;}
+
+.our-approch-area-prt-one-step h2 {margin-top: 12px;}
+
+.our-approch-area-prt-one-step p {
+}
+
+/*our-approch-area-prt-two*/
+.our-approch-area-prt-two {
+}
+
+.our-approch-area-prt-two-img {
+}
+
+.our-approch-area-prt-two-img img {
+}
+
+.our-approch-area-prt-two-txt {
+}
+
+.our-approch-area-prt-two-txt-for-center {
+}
+
+.our-approch-area-prt-two-txt h3 {
+}
+
+.our-approch-area-prt-two-txt p {font-size: 16px;margin-top: 6px;}
+
+.our-approch-area-prt-two-step {height: 80px;width: 80px;right: 30.5%;transform: translate(-30.5%, -50%);}
+
+.our-approch-area-prt-two-step h2 {
+    margin-top: 12px;
+}
+
+.our-approch-area-prt-two-step p {
+}
+
+
+/* our-approch setup end */
+
+/* our-work setup Start */
+.our-work {padding: 60px 0 70px;}
+
+.our-work > .mid {}
+
+.our-work-area {}
+
+.our-work-area h2 {
+}
+
+.our-work-area p {
+}
+
+.our-work-area hr {
+}
+
+/*our-area-part-total*/
+.our-area-part-total {
+}
+
+.our-area-part {margin-top: 0;flex-basis: 25%;height: 250px;}
+
+.our-area-part-content {
+}
+
+.our-area-part-content i {margin-top: -5px;}
+
+.our-area-part-content h3 {
+}
+
+.our-area-part-content p {
+}
+
+.our-area-part-img {
+    height: 250px;
+}
+
+.our-area-part-img img {height: 100%;}
+
+/* our-work setup end */
+
+/* contact setup Start */
+.contact {
+}
+
+.contact > .mid {}
+
+.contact-area {padding: 60px 0 70px;}
+
+.contact-txt {
+}
+
+.contact-txt h2 {
+}
+
+.contact-txt p {
+}
+
+.contact-txt i {
+}
+
+.contact-form {
+}
+
+.contact-form p {
+}
+
+.contact-form input[type=text] {
+}
+
+.contact-form input[type=number] {
+}
+
+.contact-form-button {
+}
+
+.contact-form-button a {padding: 10px 40px;font-size: 16px;}
+
+/* contact setup end */
+
+/* basic setup Start */
+.touch {
+}
+
+.touch > .mid {}
+
+.touch-arae {
+}
+
+.touch-arae h2 {
+}
+
+.touch-arae p {
+}
+
+.touch-icon {
+}
+
+.touch-icon i {
+}
+
+.touch-arae input[type="email"] {width: 30%;height: 40px;}
+
+.touch-button {
+}
+
+.touch-button a {
+}
+
+/* basic setup end */
+
+/* footer setup Start */
+.footer {
+}
+
+.footer > .mid {}
+
+footer {}
+
+footer p {
+}
+
+/* footer setup end */
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    
+
+/* basic setup start */
+* {
+}
+
+.mid {
+}
+
+h1 {}
+
+h2 {
+}
+
+h3 {
+}
+
+h4 {}
+
+p {
+}
+
+a {
+}
+
+ul li {
+}
+
+/* basic setup End */
+
+/* pre-setuped Start */
+.header {}
+
+header {}
+
+/*header-one*/
+.header-one {
+}
+
+.header-one > .mid {
+}
+
+.header-one-content {}
+
+.header-one-content ul {}
+
+.header-one-content ul .h-b-r {
+}
+
+.header-one-content ul .fa-mobile {
+}
+
+.header-one-content ul .fa-envelope {
+}
+
+.header-one-content ul .fa-facebook {
+}
+
+.header-one-content ul li {
+}
+
+.header-one-content ul li a {
+}
+
+.header-one-content ul li a i {
+}
+
+.header-one-content ul li a .fa-android {}
+
+.header-one-content ul li a .fa-envelope {}
+
+.header-one-content ul li a .fa-facebook {}
+
+/*header-two*/
+.header-two {/* margin-top: 25px; */}
+
+.header-two > .mid {
+}
+
+.logo {
+}
+
+.logo img {}
+
+nav {
+}
+
+nav ul {}
+
+nav ul li {
+    /* list-style: circle; */
+}
+
+nav ul li a:hover {
+}
+
+nav ul li a {
+}
+
+.header-button {}
+
+.header-button a {
+}
+
+/* pre-setuped End */
+
+/* banner setup Start */
+.banner {height: 80vh;}
+
+.banner > .mid {
+}
+
+.banner h1 {
+}
+
+.banner p {padding: 12px 0 7px;}
+
+.banner-button {
+}
+
+.banner-button a {
+}
+
+/* banner setup end */
+
+/* about-us setup Start */
+.about-us {padding: 100px 0;}
+
+.about-us > .mid {
+}
+
+.about-us-area {}
+
+.about-us-area h2 {
+}
+
+.about-us-area p {
+}
+
+.about-us-area hr {
+}
+
+/* about-us-prt*/
+.about-us-prt-totla {
+}
+
+.about-us-prt {
+}
+
+.about-us-prt i {
+}
+
+.about-us-prt .fa-thumbs-up {
+}
+
+.about-us-prt .fa-book {
+}
+
+.about-us-prt .fa-comments {
+}
+
+.about-us-prt h3 {
+}
+
+.about-us-prt p {
+}
+
+/* about-us setup end */
+
+/* our-approch setup Start */
+.our-approch {padding: 100px 0;}
+
+.our-approch > .mid {}
+
+.our-approch-area {}
+
+.our-approch-area-txt {
+}
+
+.our-approch-area-txt h2 {font-size: 36px !important;}
+
+.our-approch-area-txt p {margin-top: 15px;}
+
+.our-approch-area-txt hr {
+}
+
+.our-approch-area-total-prt {
+}
+
+/*our-approch-area-prt-one*/
+.our-approch-area-prt-one {
+}
+
+.our-approch-area-prt-one-img {
+}
+
+.our-approch-area-prt-one-img img {
+}
+
+.our-approch-area-prt-one-txt {
+}
+
+.our-approch-area-prt-one-txt-for-center {
+}
+
+.our-approch-area-prt-one-txt h3 {
+}
+
+.our-approch-area-prt-one-txt p {
+}
+
+.our-approch-area-prt-one-step {height: 100px;width: 100px;left: 29.5%;transform: translate(-35.5%, -50%);}
+
+.our-approch-area-prt-one-step h2 {margin-top: 20px;}
+
+.our-approch-area-prt-one-step p {
+}
+
+/*our-approch-area-prt-two*/
+.our-approch-area-prt-two {
+}
+
+.our-approch-area-prt-two-img {
+}
+
+.our-approch-area-prt-two-img img {
+}
+
+.our-approch-area-prt-two-txt {
+}
+
+.our-approch-area-prt-two-txt-for-center {
+}
+
+.our-approch-area-prt-two-txt h3 {
+}
+
+.our-approch-area-prt-two-txt p {
+}
+
+.our-approch-area-prt-two-step {height: 100px;width: 100px;right: 30.5%;transform: translate(-26.5%, -50%);}
+
+.our-approch-area-prt-two-step h2 {margin-top: 20px;}
+
+.our-approch-area-prt-two-step p {
+}
+
+
+/* our-approch setup end */
+
+/* our-work setup Start */
+.our-work {padding: 100px 0 120px;}
+
+.our-work > .mid {}
+
+.our-work-area {}
+
+.our-work-area h2 {font-size: 36px !important;}
+
+.our-work-area p {margin-top: 10px;}
+
+.our-work-area hr {
+}
+
+/*our-area-part-total*/
+.our-area-part-total {
+}
+
+.our-area-part {margin-top: 0;/* flex-basis: 25%; */}
+
+.our-area-part-content {
+}
+
+.our-area-part-content i {
+}
+
+.our-area-part-content h3 {
+}
+
+.our-area-part-content p {margin-top: 0;}
+
+.our-area-part-img {}
+
+.our-area-part-img img {
+}
+
+/* our-work setup end */
+
+/* contact setup Start */
+.contact {
+}
+
+.contact > .mid {}
+
+.contact-area {
+    padding: 100px 0 120px;
+}
+
+.contact-txt {
+}
+
+.contact-txt h2 {font-size: 36px !important;}
+
+.contact-txt p {margin-top: 10px;}
+
+.contact-txt i {
+}
+
+.contact-form {
+}
+
+.contact-form p {
+}
+
+.contact-form input[type=text] {
+}
+
+.contact-form input[type=number] {
+}
+
+.contact-form-button {
+}
+
+.contact-form-button a {
+}
+
+/* contact setup end */
+
+/* basic setup Start */
+.touch {padding: 100px 0;}
+
+.touch > .mid {}
+
+.touch-arae {
+}
+
+.touch-arae h2 {font-size: 36px !important;}
+
+.touch-arae p {
+}
+
+.touch-icon {
+}
+
+.touch-icon i {
+}
+
+.touch-arae input[type="email"] {width: 33%;height: 40px;}
+
+.touch-button {
+}
+
+.touch-button a {
+}
+
+/* basic setup end */
+
+/* footer setup Start */
+.footer {
+}
+
+.footer > .mid {}
+
+footer {}
+
+footer p {
+}
+
+/* footer setup end */
+}
+
+/*header-one*/
+/*header-two*/
+/* banner setup Start */
+/* about-us setup Start */
+/* our-approch setup Start */
+/* our-work setup Start */
+/* contact setup Start */
+/* touch setup Start */
+/* footer setup Start */
