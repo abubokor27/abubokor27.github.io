@@ -335,7 +335,7 @@ a:hover {
 #header_1 .header_right {
 	background-color: #ff9d33;
 	transform: skewX(-30deg);
-	height: 85px;
+	height: 90px;
 }
 
 #header_1 .header_right .header_right_skew {
@@ -362,7 +362,7 @@ a:hover {
 }
 
 #header_1 .header_right .header_right_skew_wrapper_txt {
-	height: 85px;
+	height: 90px;
 	width: 90%;
 	margin-left: auto;
 	background-color: #ff9d33;
