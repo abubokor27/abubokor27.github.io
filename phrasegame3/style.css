@@ -1,0 +1,206 @@
+/* FONTS START */
+@import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Special+Elite&display=swap");
+/* 
+font-family: 'Special Elite', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+*/
+
+/* FONTS END */
+
+body {}
+
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 100%;
+	width: 100%;
+}
+
+.flex-item {
+	height: 500px;
+	width: 100%;
+	text-align: right;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100px;
+}
+
+.footerItem {
+	/*
+	height: 100px;
+	width: 100px;
+	margin: 25px;
+	*/
+}
+
+img {
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+}
+
+.wordItem:hover {
+	background-color: grey;
+}
+
+selected {
+	background-color: grey;
+}
+
+notselected {
+	background-color: mediumpurple;
+}
+
+.cardDisplay img {
+	height: 200px;
+	width: 200px;
+}
+
+.flex-item#cardDisplay {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+/*MODIFIED STYLE*/
+
+/*basic_style start*/
+ul {
+	list-style-type: none;
+}
+
+/*basic_style end*/
+
+/*header_area start*/
+#main {
+	background-color: #5a3e2c;
+}
+
+#header_area {
+	background-color: rgba(106, 82, 67, 0.473) !important;
+	height: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.header_content {}
+
+.header_content p {
+	color: #fff;
+	font-weight: bold;
+	font-size: 20px;
+	margin-bottom: 20px !important;
+}
+
+.header_content h4 {
+	color: #5a3e2c;
+	display: none;
+}
+
+/*header_area end*/
+
+/*flex_content start*/
+#flex_content {}
+
+#flex_content .flex-item {
+	height: auto;
+}
+
+.skew-img {}
+
+.cardDisplay {}
+
+#flex_content .flex-item img {
+	height: 400px;
+	width: 400px;
+	border-radius: 15px;
+	box-shadow: 1px 1px 3px black;
+}
+
+#flex_content .list {}
+
+#flex_content .list h1 {
+	color: #fff;
+	font-weight: bold;
+	margin-top: 10px;
+	background-color: rgba(121, 252, 232, 0.151);
+	line-height: 70px;
+	margin: 0;
+}
+
+#flex_content .list-group {}
+
+#flex_content .list-group a {}
+
+#flex_content .list-group a i {
+	font-size: 23px;
+	color: #79FCE9;
+	font-weight: bold;
+}
+
+#flex_content .list-group .list-group-item {
+	background-color: transparent !important;
+	color: #fff !important;
+	border: none !important;
+	font-weight: bold;
+}
+
+#flex_content .list-group .list-group-item:hover {
+	background-color: rgba(121, 252, 232, 0.151) !important;
+}
+
+#flex_content .list-group ul {}
+
+
+#flex_content .list-group ul li a {}
+
+/*flex_content end*/
+
+/*footer start*/
+
+#footer {
+	background-color: #6a5243;
+}
+
+#flex_content {}
+
+.footerItem {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 3px solid #fff;
+	margin: 0 5px;
+}
+
+.footerItem i {
+	font-size: 45px;
+	line-height: 70px;
+	width: 80px;
+	height: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #000;
+}
+
+.footerItem img {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 45px;
+	height: 45px;
+}
+
+/*footer end*/

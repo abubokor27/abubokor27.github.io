@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<!-- META TAGS -->
+		<meta charset="utf-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1, shrink-to-fit=no"
+		/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+		<title>Games</title>
+
+		<!-- BOOTSTRAP CDN -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+
+		<!-- CSS LINKUP -->
+		<link rel="stylesheet" href="style.css" />
+
+		<link rel="stylesheet" href="css/responsive.css" />
+	</head>
+
+	<body>
+		<section id="main" style="background-image: url(./images/bg.png);">
+			<section class="container-fluid bg-light" id="header_area">
+				<div class="header_content text-center">
+					<div class="row">
+						<div class="col-sm-12">
+							<p class="m-0 mt-3">Phrase Game</p>
+							<h4 class="mb-3">Content required: [[${title}]]</h4>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="flex_content" class="container-fluid p-0">
+				<div class="row">
+					<div class="col-sm-6 p-0 d-flex align-items-center">
+						<div class="flex-item" id="cardDisplay">
+							<div class="skew-img">
+								<div class="cardDisplay">
+									<img
+										src="images/phrasegame/basic words/hello.png"
+										alt="Play back"
+									/>
+
+									<h3 class="text-light mt-3">ipsum dolor.</h3>
+									<h3 class="text-light mt-3">ipsum.</h3>
+									<h3 class="text-light mt-3">ipsum dolor.</h3>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-sm-6 list p-0 border-left">
+						<div id="test1" class="flex-item text-left">
+							<h1
+								class="text-center"
+								th:each="word : ${wordsList}"
+								th:id="${word}"
+								th:class="wordItem"
+								th:onclick="wordItemClick([[${word}]])"
+								style=""
+							>
+								Here is Your List
+							</h1>
+							<div class="list-group">
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>Hello. <i class="text-right float-right far fa-check-circle"></i></a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>Yes.<i class="text-right float-right far fa-check-circle"></i></a
+								>
+
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>No.</a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>Please.</a
+								>
+							<div class="list-group">
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>Thank You<i class="text-right float-right far fa-check-circle"></i></a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>I'd like a coffee, please.</a
+								>
+
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>milk.</a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>bus.<i class="text-right float-right far fa-check-circle"></i></a
+								>
+							<div class="list-group">
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>car.<i class="text-right float-right far fa-check-circle"></i></a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>Excuse me.</a
+								>
+
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>I don't understand.</a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>Ladies' Toilet</a
+								>
+							<div class="list-group">
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>Cash machine<i class="text-right float-right far fa-check-circle"></i></a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>Cash machine<i class="text-right float-right far fa-check-circle"></i></a
+								>
+
+								<a
+									href="#"
+									class="list-group-item list-group-item-action list-group-item-secondary"
+									>Goodbye.<i class="text-right float-right far fa-check-circle"></i></a
+								>
+
+								<a href="#" class="list-group-item list-group-item-action"
+									>one.</a
+								>
+<!--
+								<ul>
+									<li><a href="#"></a>Hello.</li>
+									<li><a href="#"></a>Yes.</li>
+									<li><a href="#"></a>No.</li>
+									<li><a href="#"></a>Please.</li>
+									<li><a href="#"></a>Thank You</li>
+									<li><a href="#"></a>I'd like a coffee, please.</li>
+									<li><a href="#"></a>milk</li>
+									<li><a href="#"></a>bus</li>
+									<li><a href="#"></a>car</li>
+									<li><a href="#"></a>Excuse me.</li>
+									<li><a href="#"></a>I don't understand.</li>
+									<li><a href="#"></a>Ladies' Toilet</li>
+									<li><a href="#"></a>Gents' Toilet</li>
+									<li><a href="#"></a>Cash machine</li>
+									<li><a href="#"></a>Goodbye.</li>
+									<li><a href="#"></a>one</li>
+									<li><a href="#"></a>two</li>
+								</ul>
+-->
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section id="footer">
+				<footer class="">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="footer">
+								<div class="footerItem" th:onclick="playsound()">
+									<i class="fas fa-volume-up"></i>
+								</div>
+
+								<div class="footerItem" th:onclick="playsoundSlowly()">
+									<img src="images/gameIcons/Snail-icon.png" alt="snail" />
+								</div>
+
+								<div class="footerItem" th:onclick="recordAudio()">
+									<i id="microphoneImg" class="fas fa-microphone"></i>
+								</div>
+							</div>
+						</div>
+					</div>
+				</footer>
+			</section>
+		</section>
+	</body>
+	<!-- FontAwesome-->
+	<script
+		src="https://kit.fontawesome.com/dcac7b9700.js"
+		crossorigin="anonymous"
+	></script>
+
+	<!-- CUSTOM SCRIPTS -->
+	<script th:inline="javascript">
+		//<img id="cardDisplayImg" th:src="'/images/phrasegame/'+${title} + '/' + ${wordsList[0]} + '.png'" >
+		//<h1  th:each="word : ${wordsList}" th:id="${word}" th:class="wordItem" th:onclick="wordItemClick([[${word}]])" style="">[[${word}]]</h1>
+		//base variables for wordItemClick
+		let tracker = 0;
+		let prev = "";
+		let currentWord = "";
+		/*<![CDATA[*/
+		let title = /*[[${title}]]*/ "title";
+		/*]]>*/
+
+		function wordItemClick(currentID) {
+			currentWord = currentID.toString();
+
+			if (tracker == 0) {
+				//detect first click and adjust element style.
+				tracker = tracker + 1;
+				prev = currentID;
+				document.getElementById(currentID).style.backgroundColor = "grey";
+
+				//play sound file for corresponding word
+				var snd = new Audio(
+					"/soundfiles/" + title + "/" + currentWord + ".m4a"
+				);
+				snd.play();
+				snd.currentTime = 0;
+			} else {
+				//adjust the style for previous and current word.
+				document.getElementById(prev).style.backgroundColor = "mediumpurple";
+				prev = currentID;
+				document.getElementById(currentID).style.backgroundColor = "grey";
+
+				//play sound file for corresponding word
+				var snd = new Audio(
+					"/soundfiles/" + title + "/" + currentWord + ".m4a"
+				);
+				snd.play();
+				snd.currentTime = 0;
+			}
+
+			document
+				.getElementById("cardDisplayImg")
+				.setAttribute(
+					"src",
+					"/images/phrasegame/" + title + "/" + currentID + ".png"
+				);
+		}
+
+		function playsound() {
+			var snd = new Audio("/soundfiles/" + title + "/" + currentWord + ".m4a");
+			snd.play();
+			snd.currentTime = 0;
+		}
+
+		function playsoundSlowly() {
+			var snd = new Audio("/soundfiles/" + title + "/" + currentWord + ".m4a");
+			snd.playbackRate = 0.5;
+			snd.play();
+			snd.currentTime = 0;
+		}
+
+		function recordAudio() {
+			console.log("record audio clicked");
+
+			document
+				.getElementById("microphoneImg")
+				.setAttribute("src", "/images/gameIcons/record.png");
+
+			navigator.mediaDevices
+				.getUserMedia({
+					audio: true,
+				})
+				.then((stream) => {
+					const mediaRecorder = new MediaRecorder(stream);
+					mediaRecorder.start();
+
+					const audioChunks = [];
+					mediaRecorder.addEventListener("dataavailable", (event) => {
+						audioChunks.push(event.data);
+					});
+
+					mediaRecorder.addEventListener("stop", () => {
+						const audioBlob = new Blob(audioChunks);
+						const audioUrl = URL.createObjectURL(audioBlob);
+						const audio = new Audio(audioUrl);
+						audio.play();
+						document
+							.getElementById("microphoneImg")
+							.setAttribute("src", "/images/gameIcons/play.png");
+
+						setTimeout(() => {
+							document
+								.getElementById("microphoneImg")
+								.setAttribute("src", "/images/gameIcons/microphone.png");
+						}, 3000);
+					});
+
+					setTimeout(() => {
+						mediaRecorder.stop();
+					}, 3000);
+				});
+		}
+	</script>
+</html>

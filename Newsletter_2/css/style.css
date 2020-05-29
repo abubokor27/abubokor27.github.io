@@ -1,0 +1,242 @@
+/* FONTS START */
+@import url("https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap");
+/* 
+font-family: 'Fjalla One', sans-serif;
+*/
+
+/* FONTS END */
+
+/* GLOBAL SETUP START */
+
+body {
+	font-family: "Fjalla One", sans-serif;
+}
+
+.form-control:focus {
+	box-shadow: 0 0 0 0;
+}
+
+.btn_all a {
+	width: 50%;
+	line-height: 60px;
+	display: inline-block;
+	text-align: center;
+	background-color: #7f0506;
+	font-size: 18px;
+	font-weight: bold;
+	color: #fff;
+	letter-spacing: 2px;
+	border-radius: 3px;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+/* GLOBAL SETUP END */
+
+/* REFORM SETUP START */
+
+#reform {
+	height: 450px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#reform svg {
+	position: absolute;
+	bottom: -1.1%;
+	left: 0;
+	right: 0;
+	height: 35px;
+	width: 50%;
+	margin: 0 auto;
+	transform: scaleY(-1);
+}
+
+#reform svg .st13 {
+	fill: #252525;
+}
+
+#reform>.container-fluid {
+	width: 100%;
+	height: 100%;
+}
+
+.reform_area {
+	position: relative;
+	width: 700px;
+	height: 300px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	border: 1px solid #222222;
+}
+
+.reform_area .shape_1::before {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 80px;
+	top: -6px;
+	left: -6px;
+	background-color: #222222;
+}
+
+.reform_area .shape_1::after {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 10px;
+	top: -6px;
+	left: -6px;
+	background-color: #222222;
+}
+
+.reform_area .shape_2::before {
+	position: absolute;
+	content: "";
+	width: 10px;
+	height: 80px;
+	bottom: -6px;
+	right: -6px;
+	background-color: #222222;
+}
+
+.reform_area .shape_2::after {
+	position: absolute;
+	content: "";
+	width: 80px;
+	height: 10px;
+	bottom: -6px;
+	right: -6px;
+	background-color: #222222;
+}
+
+.reform_area h1 {
+	font-size: 60px;
+	color: #fff;
+	text-align: center;
+	font-weight: bold;
+	letter-spacing: 15px;
+}
+
+.reform_area h1 span {
+	color: #222222;
+}
+
+.reform_area h2 {
+	color: #222222;
+	width: 100%;
+}
+
+.reform_area p {
+	font-size: 16px;
+	color: #222222;
+	font-weight: 400;
+	letter-spacing: 1px;
+	text-align: center;
+}
+
+.reform_input {
+	width: 75%;
+}
+
+.reform_input label {}
+
+.reform_input .input-group {}
+
+.reform_input .input-group .form-control {
+	background-color: #222222;
+	border: transparent;
+	color: #fff;
+}
+
+.reform_input .input-group-prepend {
+	cursor: pointer;
+}
+
+.reform_input .input-group-prepend .input-group-text {
+	background: #fff;
+	border: 1px solid #222222;
+}
+
+/* REFORM SETUP END */
+
+/* CONTENT_BOX SETUP START */
+
+#content_box {
+	padding-bottom: 100px;
+}
+
+#content_box>.container {}
+
+.cntnt_area {}
+
+.cntnt_area>.row {}
+
+.cntnt_area_img {
+	margin-top: 100px;
+	display: flex;
+	justify-content: center;
+	/* align-items: center; */
+	height: 100%;
+}
+
+.cntnt_area_img img {
+	width: 92%;
+	height: 80%;
+	/* margin-top: 34px; */
+}
+
+.cntnt_area_text {
+	margin-top: 100px;
+	padding-left: 23px;
+}
+
+.cntnt_area_text h2 {
+	font-weight: bold;
+	font-size: 36px;
+	color: #FFC000;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.cntnt_area_text p {
+	font-size: 18px;
+	line-height: 24px;
+	color: #fff;
+}
+
+.cntnt_area_text_list {}
+
+.cntnt_area_text_list .media {}
+
+.cntnt_area_text_list .media i {
+	display: inline-block;
+	font-size: 25px;
+	margin-right: 15px;
+	margin-top: 7px;
+	color: #ffffff7a;
+}
+
+.cntnt_area_text_list .media .media-body {}
+
+.cntnt_area_text_list .media .media-body p {
+	color: #fff;
+}
+
+.cntnt_area_text_btn {
+	margin-top: 25px;
+}
+
+.cntnt_area_text_btn a {}
+
+/* CONTENT_BOX SETUP END */

@@ -1,0 +1,74 @@
+/* FONTS START */
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&family=Special+Elite&display=swap');
+/* 
+font-family: 'Special Elite', cursive;
+font-family: 'Love Ya Like A Sister', cursive;
+*/
+
+/* FONTS END */
+
+body {
+	font-family: "Love Ya Like A Sister", Sans-serif;
+}
+
+section {
+	width: 500px;
+	margin: 0 auto;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: #fff;
+}
+
+h2 {
+	color: #fff;
+	font-size: 65px;
+	margin-top: 30px;
+}
+
+h6 {
+	opacity: 0.8;
+	/*color: #482525;*/
+	color: #d39e00;
+}
+
+p {
+	font-family: "Love Ya Like A Sister", Sans-serif;
+}
+
+img {
+	width: 30%;
+	border-radius: 50%;
+}
+
+.w-75 {
+	max-width: 75% !important;
+	margin: 0 auto;
+	border: 3px dotted #fff;
+	padding: 120px 0;
+	border: 1px solid #fff;
+}
+
+.btns {
+	background: burlywood;
+	outline: none;
+	border: transparent;
+}
+
+.btn-groups {
+	width: 53%;
+	margin-bottom: 10px;
+}
+
+.card-body {
+	background-color: rgba(255, 255, 255, 0.05);
+	color: #fff;
+	width: 75%;
+	margin: 30px auto 0;
+}
