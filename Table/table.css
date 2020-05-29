@@ -1,0 +1,34 @@
+
+
+}
+body{
+    background: none;
+}
+table{
+    width: 800px;
+    border: 2px;
+    border-color: seagreen;
+    border-collapse: ;
+    margin: 0 auto;
+    background: #80A256;
+    color: 
+    
+}
+table tr td{
+    text-align: center;
+}
+caption{
+    font-style: arial;
+    text-transform: uppercase;
+}
+.full_bg{
+    background: black;
+    color:white;
+    border: 2px solid red;
+}
+
+
+
+
+
+
